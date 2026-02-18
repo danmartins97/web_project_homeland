@@ -1,0 +1,46 @@
+.header {
+    display: flex;
+    flex-flow: column;
+    margin: 0 auto;
+    max-width: 984px;
+}
+
+.nav {
+    margin: 34px auto 0;
+    align-items: center;
+    max-width: 254px;
+    max-height: 70px;
+}
+
+.header__title {
+    font-family: Inter, sans-serif;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 100px;
+    margin: 90px auto 0;
+    max-width: 720px;
+    max-height: 200px;
+    text-align: center;
+}
+
+.header__description {
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    margin: 32px auto 0;
+    max-width: 720px;
+    max-height: 200px;
+    text-align: center;
+}
+
+.header__image-wrapper {
+    max-width: 984px;
+    max-height: 615px;
+    filter: grayscale(1);
+}
+
+.header__image {
+    width: 100%;
+    height: 100%;
+}

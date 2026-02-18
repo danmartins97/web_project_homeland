@@ -1,0 +1,11 @@
+*{
+    box-sizing: border-box;
+}
+
+.page {
+    color: #fff;
+    background-color: #2a2c2f;
+    display: flex;
+    flex-direction: column;
+    padding: 0 148px;
+}

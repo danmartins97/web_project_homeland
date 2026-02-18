@@ -1,0 +1,10 @@
+.footer {
+    margin: 92px auto 0;
+    max-width: 166px;
+}
+
+.footer__title {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
