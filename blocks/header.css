@@ -3,6 +3,7 @@
     flex-flow: column;
     margin: 0 auto;
     max-width: 984px;
+    text-align: center;
 }
 
 .nav {
@@ -12,8 +13,13 @@
     max-height: 70px;
 }
 
+.nav__logo {
+    width: 254px;
+    height: 70px;
+}
+
 .header__title {
-    font-family: Inter, sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 900;
     font-size: 96px;
     line-height: 100px;
@@ -21,10 +27,11 @@
     max-width: 720px;
     max-height: 200px;
     text-align: center;
+    letter-spacing: 0%;
 }
 
 .header__description {
-    font-family: Inter, sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 400;
     font-size: 30px;
     line-height: 36px;
@@ -32,15 +39,84 @@
     max-width: 720px;
     max-height: 200px;
     text-align: center;
+    letter-spacing: 0%;
 }
 
 .header__image-wrapper {
     max-width: 984px;
     max-height: 615px;
+    margin: 64px auto 0;
     filter: grayscale(1);
 }
 
 .header__image {
     width: 100%;
     height: 100%;
+}
+
+
+@media all and (max-width: 1024px) {
+    .header {
+        max-width: 768px;
+    }
+
+    .nav {
+        margin: 30px auto 0;
+    }
+
+    .nav__logo {
+        width: 254px;
+        height: 66px;
+    }
+
+    .header__title {
+        margin: 90px auto 0;
+        max-width: 530px;
+        font-size: 75px;
+        line-height: 79px;
+    }
+
+    .header__description {
+        max-width: 720px;
+        font-size: 30px;
+        line-height: 36px;
+        margin: 25px auto 0;
+    }
+
+    .header__image-wrapper {
+        margin: 30px auto 0;
+    }
+}
+
+@media all and (max-width: 544px) {
+    .header {
+        max-width: 320px;
+    }
+
+    .nav {
+        margin: 20px auto 0;
+    }
+
+    .nav__logo {
+        width: 188px;
+        height: 52px;
+    }
+
+    .header__title {
+        margin: 50px auto 0;
+        max-width: 228px;
+        font-size: 40px;
+        line-height: 44px;
+    }
+
+    .header__description {
+        max-width: 288px;
+        margin: 16px auto 0;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .header__image-wrapper {
+        margin: 40px auto 0;
+    }
 }

@@ -9,3 +9,9 @@
     flex-direction: column;
     padding: 0 148px;
 }
+
+@media all and (max-width: 1024px) {
+    .page {
+        padding: 0;
+    }
+}
