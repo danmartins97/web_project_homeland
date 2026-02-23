@@ -54,6 +54,7 @@
     height: 100%;
 }
 
+/*Ponto Médio para 768px*/
 
 @media all and (max-width: 1024px) {
     .header {
@@ -87,6 +88,8 @@
         margin: 30px auto 0;
     }
 }
+
+/*Ponto Médio para 320px*/
 
 @media all and (max-width: 544px) {
     .header {
