@@ -6,14 +6,14 @@
     text-align: center;
 }
 
-.nav {
+.header__nav {
     margin: 34px auto 0;
     align-items: center;
     max-width: 254px;
     max-height: 70px;
 }
 
-.nav__logo {
+.header__nav-logo {
     width: 254px;
     height: 70px;
 }
@@ -61,11 +61,11 @@
         max-width: 768px;
     }
 
-    .nav {
+    .header__nav {
         margin: 30px auto 0;
     }
 
-    .nav__logo {
+    .header__nav-logo {
         width: 254px;
         height: 66px;
     }
@@ -96,11 +96,11 @@
         max-width: 320px;
     }
 
-    .nav {
+    .header__nav {
         margin: 20px auto 0;
     }
 
-    .nav__logo {
+    .header__nav-logo {
         width: 188px;
         height: 52px;
     }
