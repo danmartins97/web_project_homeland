@@ -1,0 +1,218 @@
+.places {
+  margin: 92px auto 0;
+  display: flex;
+  flex-direction: column;
+  max-width: 984px;
+  row-gap: 80px;
+}
+
+.places__items {
+  display: grid;
+  grid-template-columns: 460px 1fr;
+  grid-template-rows: auto 460px auto;
+  grid-template-areas:
+    "title quote"
+    "image paragraph"
+    "button paragraph"
+  ;
+  gap: 40px 48px;
+}
+
+.places__items-quotes {
+  flex-direction: column;
+  max-width: 460px;
+  grid-area: quote;
+  align-self: self-end;
+}
+
+.places__items-title {
+  grid-area: title;
+  max-width: 460px;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  letter-spacing: 0%;
+  margin: 0;
+  align-self: self-end;
+}
+
+.places__items-artists {
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 12%;
+  margin: auto auto 8px 0;
+  color: #AAA;
+}
+
+.places__items-names {
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0%;
+  margin: 0 0;
+}
+
+.places__items-images {
+  max-width: 460px;
+  max-height: 460px;
+  grid-area: image;
+  box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
+}
+
+.places__items-images:hover {
+  opacity: 0.5;
+  cursor: pointer;
+;
+}
+
+.places__items-text {
+  grid-area: paragraph;
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+}
+
+.places__items-paragraph {
+  font-size: 18px;
+  line-height: 163%;
+  margin: 0;
+}
+
+.places__items-button {
+  width: 356px;
+  height: 48px;
+  padding: auto 0;
+  background-image: linear-gradient(to right, rgba(2, 120, 254, 1), rgba(0, 58, 123, 1));
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  grid-area: button;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.places__items-button:hover {
+  background: linear-gradient(90deg, rgba(2, 120, 254, 0.25) 0%, rgba(0, 58, 123, 0.25) 99.98%);
+  cursor: pointer;
+}
+
+.places__items-images:hover {
+  filter: rgba(0, 0, 0, 0.5);
+}
+
+@media all and (max-width: 1024px) {
+.places {
+  margin: 88px auto 0;
+  display: flex;
+  flex-direction: column;
+  max-width: 720px;
+  row-gap: 72px;
+}
+
+.places__items {
+  display: grid;
+  grid-template-columns: 340px 1fr;
+  grid-template-rows: auto 340px auto;
+  grid-template-areas:
+    "title quote"
+    "image paragraph"
+    "button paragraph"
+  ;
+  gap: 48px 28px;
+}
+
+.places__items-quotes {
+  max-width: 352px;
+  align-self: flex-start;
+}
+
+.places__items-artists {
+  max-width: 288px;
+}
+
+.places__items-names {
+  max-width: 288px;
+}
+
+.places__items-title {
+  max-width: 340px;
+  font-size: 42px;
+  line-height: 46px;
+}
+
+.places__items-images {
+  max-width: 340px;
+  max-height: 340px;
+  box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
+}
+
+.places__items-paragraph {
+  font-size: 16px;
+}
+
+.places__items-button {
+  width: 355px;
+  border-radius: 4px;
+  color: #fff;
+  grid-area: button;
+  font-size: 16px;
+}
+}
+
+@media all and (max-width: 544px) {
+.places {
+  margin: 62px auto 0;
+  display: flex;
+  flex-direction: column;
+  max-width: 320px;
+  row-gap: 50px;
+}
+
+.places__items {
+  max-width: 320px;
+  display: flex;
+  flex-direction: column;
+  /*grid-template-columns: auto;
+  grid-template-rows: auto auto auto auto auto;
+  grid-template-areas:
+    "title"
+    "quote"
+    "image"
+    "paragraph"
+    "button"
+  ;*/
+  column-gap: 30px;
+}
+
+.places__items-quotes {
+  max-width: 288px;
+  margin: 0 auto;
+}
+
+.places__items-title {
+  max-width: 288px;
+  margin: 0 auto;
+  font-size: 32px;
+  line-height: 35px;
+}
+
+.places__items-images {
+  max-width: 320px;
+  max-height: 320px;
+  box-shadow: 0 0 0;
+}
+
+.places__items-text {
+  grid-area: paragraph;
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+  max-width: 288px;
+  margin: 0 auto;
+}
+
+.places__items-button {
+  max-width: 288px;
+  margin: 0 auto;
+}
+}
