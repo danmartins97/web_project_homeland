@@ -8,6 +8,7 @@
     display: flex;
     flex-direction: column;
     padding: 0 /*148px;*/;
+    font-family: "Inter", sans-serif;
 }
 
 /*Ponto Médio para 768px*/
