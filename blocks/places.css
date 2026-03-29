@@ -19,9 +19,13 @@
 }
 
 .places__items-quotes {
+<<<<<<< HEAD
   display: flex;
   flex-direction: column;
   padding-top: auto;
+=======
+  flex-direction: column;
+>>>>>>> 7f217cfd17fdd4c9e1e0f9c71bafff9ba9fc59a1
   max-width: 460px;
   grid-area: quote;
   align-self: self-end;
